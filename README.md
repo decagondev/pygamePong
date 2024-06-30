@@ -4,6 +4,63 @@
 
 This repository contains a simple implementation of the classic game Pong using Python and the Pygame library. Pong is a two-dimensional sports game that simulates table tennis, where players use paddles to hit a ball back and forth across a court divided by a net.
 
+## Setup Guide for Pong Game
+
+### Prerequisites
+Before you begin, make sure you have the following installed on your machine:
+- [Git](https://git-scm.com/downloads) for version control.
+- [Python](https://www.python.org/downloads/) (version 3.6 or higher).
+- [pip](https://pip.pypa.io/en/stable/installation/) for managing Python packages.
+
+### Step 1: Fork the Repository
+1. Go to the GitHub repository page.
+2. Click on the "Fork" button at the top-right corner of the page.
+3. Select your GitHub account and click "Fork".
+
+### Step 2: Clone the Repository Locally
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to store the project.
+3. Run the following command, replacing `<your-forked-repo-url>` with the URL of your forked repository:
+```sh
+git clone <your-forked-repo-url>
+```
+### Step 3: Create a Virtual Environment
+1. Navigate into the project directory:
+```sh
+cd pong-game
+```
+2. Create a virtual environment:
+```sh
+python -m venv venv
+```
+This creates a new virtual environment named `venv`.
+
+### Step 4: Activate the Virtual Environment
+1. On Windows, activate the virtual environment:
+```cmd
+venv\Scripts\activate
+```
+2. On macOS/Linux, activate the virtual environment:
+```bash
+source venv/bin/activate
+```
+## Step 5: Install Dependencies
+1. With the virtual environment activated, install the project dependencies:
+```sh
+pip install -r requirements.txt
+```
+## Step 6: Run the Game
+1. Run the main Python script to start the game:
+```sh
+python src/main.py
+```
+## Troubleshooting
+If you encounter any issues during setup, ensure that you are running the commands inside the virtual environment and that your Python and pip versions are up to date.
+
+## Additional Resources
+For more information about using virtual environments, refer to the official Python documentation on [virtual environments](https://docs.python.org/3/tutorial/venv.html).
+
+
 ## Concepts and Logic Breakdown
 
 ### Game Objects
